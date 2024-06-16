@@ -18,7 +18,7 @@ python3 -m pip yt-dlp
 ## Usage
 
 ```bash
-python3 b-cdn-drm-vod-dl.py --referer 'https://iframe.mediadelivery.net/embed/{video_library_id}/{video_id}' --embed_url 'https://iframe.mediadelivery.net/embed/{video_library_id}/{video_id}' --name
+python3 b-cdn-drm-vod-dl.py --referer 'https://iframe.mediadelivery.net/embed/{video_library_id}/{video_id}' --embed_url 'https://iframe.mediadelivery.net/embed/{video_library_id}/{video_id}'
 ```
 > Embed link structure: [`https://iframe.mediadelivery.net/embed/{video_library_id}/{video_id}`](https://docs.bunny.net/docs/stream-embedding-videos)
 
