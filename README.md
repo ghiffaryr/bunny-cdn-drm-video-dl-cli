@@ -41,5 +41,5 @@ The program runs a sequence of requests tied to a [session](https://requests.rea
 After that, the download link (that is the HLS/M3U8) is ready to be fed to yt-dlp to download the video segments, decrypt them (since Bunny CDN's "DRM" videos are encrypted with the AES-128 algorithm) and merge them into one playable video.
 
 
-# Reference
+## Reference
 [Bunny CDN "DRM" Video Downloader](https://github.com/MaZED-UP/bunny-cdn-drm-video-dl)
